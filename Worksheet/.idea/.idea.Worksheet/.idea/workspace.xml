@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36d29b2e-7e90-4349-bc51-843e105412f2" name="Default Changelist" comment="Adaptor">
+      <change afterPath="$PROJECT_DIR$/Bridge/BigWheel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/Bridge.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/CentralLocking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/GearLocking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/IProduct.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/Motoren.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bridge/TestBridgePattern.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/Composite.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/HtmlElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/HtmlParentElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/HtmlTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composite/TestCompositePattern.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/Cheese.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/Decorator.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/GreenOlives.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/Ham.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/IPizza.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/Meat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/RomaTomatoes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/SimplyNonVegPizza.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/SimplyVegPizza.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/Spinach.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorator/TestDecoratorPattern.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/Facade.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/IScheduleServer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/ScheduleServerFacade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/ScheduleServerImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade/TestFacade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/Code.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/Flyweight.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/IPlatform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/PlatformFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/ScalaPlatform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/TestFlyweight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/IReportGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/IStaff.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/Owner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/ProtectedProxy.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProtectionProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProtectedProxy/TestProtectionProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/ContactsImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/ContactsProxyImpl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/IContacts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/TestVirtualProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualProxy/VirtualProxy.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Worksheet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Worksheet/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/XpayImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/XpayImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worksheet.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Worksheet.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Composite/HtmlElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Composite/HtmlParentElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Composite/HtmlTag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/IPizza.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/TestVirtualProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/Cheese.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/GreenOlives.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/Ham.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/Meat.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/RomaTomatoes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/SimplyNonVegPizza.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/SimplyVegPizza.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/Spinach.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Composite/TestCompositePattern.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/ProgramRunAdapterExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flyweight/TestFlyweight.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/TestProtectionProxy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/BigWheel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/GearLocking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/CentralLocking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/IPayD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Motoren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/IXPay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/TestBridgePattern.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/XpayImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Adapter/XpayToPayD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/TestFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flyweight/IPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Car.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flyweight/Code.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/IProduct.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Flyweight/PlatformFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/IStaff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/Employee.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/Owner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/IReportGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProtectionProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/Company.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/IContacts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/IScheduleServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/Employee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/TestDecoratorPattern.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/ScheduleServerFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/ContactsImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/ScheduleServerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VirtualProxy/ContactsProxyImpl.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Adapter/Program.cs" />
+        <option value="$PROJECT_DIR$/Adapter/IPayD.cs" />
+        <option value="$PROJECT_DIR$/Adapter/IXPay.cs" />
+        <option value="$PROJECT_DIR$/Adapter/XpayImpl.cs" />
+        <option value="$PROJECT_DIR$/Adapter/XpayToPayDAdapter.cs" />
+        <option value="$PROJECT_DIR$/Adapter/ProgramRunAdapterExample.cs" />
+        <option value="$PROJECT_DIR$/Bridge/IProduct.cs" />
+        <option value="$PROJECT_DIR$/Bridge/TestBridgePattern.cs" />
+        <option value="$PROJECT_DIR$/Bridge/BigWheel.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Motoren.cs" />
+        <option value="$PROJECT_DIR$/Bridge/GearLocking.cs" />
+        <option value="$PROJECT_DIR$/Bridge/CentralLocking.cs" />
+        <option value="$PROJECT_DIR$/Bridge/Car.cs" />
+        <option value="$PROJECT_DIR$/Composite/TestCompositePattern.cs" />
+        <option value="$PROJECT_DIR$/Composite/HtmlElement.cs" />
+        <option value="$PROJECT_DIR$/Composite/HtmlParentElement.cs" />
+        <option value="$PROJECT_DIR$/Composite/HtmlTag.cs" />
+        <option value="$PROJECT_DIR$/Decorator/TestDecoratorPattern.cs" />
+        <option value="$PROJECT_DIR$/Decorator/IPizza.cs" />
+        <option value="$PROJECT_DIR$/Decorator/GreenOlives.cs" />
+        <option value="$PROJECT_DIR$/Decorator/Ham.cs" />
+        <option value="$PROJECT_DIR$/Decorator/Meat.cs" />
+        <option value="$PROJECT_DIR$/Decorator/RomaTomatoes.cs" />
+        <option value="$PROJECT_DIR$/Decorator/SimplyNonVegPizza.cs" />
+        <option value="$PROJECT_DIR$/Decorator/SimplyVegPizza.cs" />
+        <option value="$PROJECT_DIR$/Decorator/Spinach.cs" />
+        <option value="$PROJECT_DIR$/Decorator/Cheese.cs" />
+        <option value="$PROJECT_DIR$/Facade/TestFacade.cs" />
+        <option value="$PROJECT_DIR$/Facade/IScheduleServer.cs" />
+        <option value="$PROJECT_DIR$/Facade/ScheduleServerImpl.cs" />
+        <option value="$PROJECT_DIR$/Facade/ScheduleServerFacade.cs" />
+        <option value="$PROJECT_DIR$/Flyweight/IPlatform.cs" />
+        <option value="$PROJECT_DIR$/Flyweight/Code.cs" />
+        <option value="$PROJECT_DIR$/Flyweight/PlatformFactory.cs" />
+        <option value="$PROJECT_DIR$/Flyweight/TestFlyweight.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/TestProtectionProxy.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/IStaff.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/Owner.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/IReportGenerator.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/Employee.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/IReportGeneratorProxy.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProtectionProxy.cs" />
+        <option value="$PROJECT_DIR$/ProtectedProxy/ReportGeneratorProxy.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/ContactListImpl.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/ContactsImpl.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/ContactListProxyImpl.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/TestVirtualProxy.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/Company.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/ContactsProxyImpl.cs" />
+        <option value="$PROJECT_DIR$/VirtualProxy/Employee.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YXZuPZgjsPwwxfJ2UY8JhGiZ6j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected=".NET Project.VirtualProxy">
+    <configuration name="Composite" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Composite/Composite.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Decorator" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Decorator/Decorator.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Facade" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Facade/Facade.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Flyweight" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Flyweight/Flyweight.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="VirtualProxy" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/VirtualProxy/VirtualProxy.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Worksheet" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Adapter/Adapter.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.VirtualProxy" />
+        <item itemvalue=".NET Project.Flyweight" />
+        <item itemvalue=".NET Project.Facade" />
+        <item itemvalue=".NET Project.Decorator" />
+        <item itemvalue=".NET Project.Composite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36d29b2e-7e90-4349-bc51-843e105412f2" name="Default Changelist" comment="" />
+      <created>1583091122469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583091122469</updated>
+      <workItem from="1583091136781" duration="1753000" />
+      <workItem from="1583142776227" duration="1018000" />
+      <workItem from="1583144109666" duration="740000" />
+      <workItem from="1583144978843" duration="1220000" />
+      <workItem from="1583146605553" duration="744000" />
+      <workItem from="1583147660381" duration="758000" />
+      <workItem from="1583148769981" duration="1721000" />
+      <workItem from="1583150664618" duration="800000" />
+      <workItem from="1583153270168" duration="521000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adaptor">
+      <created>1583145012874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583145012874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Builder pattern" />
+    <MESSAGE value="Adaptor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaptor" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1583153791789">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583153791789" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1583153791788">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583153791788" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1583153791647">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583153791647" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1583153791789">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583153791788" />
+    <state x="769" y="291" key="RiderGenerateDialog" timestamp="1583149236188">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="769" y="291" key="RiderGenerateDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583149236188" />
+  </component>
+</project>

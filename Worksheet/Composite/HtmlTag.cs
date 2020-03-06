@@ -8,14 +8,14 @@ namespace Composite
         public string EndTag { get; set; }
         public string TagBody { get; set; }
 
-        private List<HtmlTag> children;
+       
 
-        public void AddChildTag(HtmlTag htmlTag)
+        public virtual void AddChildTag(HtmlTag htmlTag)
         {
             throw new System.NotImplementedException();
         }
 
-        public void RemoveChildTag(HtmlTag htmlTag)
+        public virtual void RemoveChildTag(HtmlTag htmlTag)
         {
             throw new System.NotImplementedException();
         }

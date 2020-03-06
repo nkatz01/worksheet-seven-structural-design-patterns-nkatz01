@@ -1,21 +1,29 @@
-﻿namespace Bridge
+﻿using System;
+
+namespace Bridge
 {
     public class GearLocking : IProduct
     {
-        public GearLocking(string name)
+        
+        
+          
+            public GearLocking(string name)
         {
+            ProductName = name;
         }
 
         public string ProductName { get; set; }
 
         public void Produce()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine($"Producing {ProductName}");
         }
 
         public override string ToString()
         {
-            return base.ToString(); // REPLACE
+            return $"Product: {ProductName} \n";
         }
+
+ 
     }
 }

@@ -6,7 +6,7 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            // Object for Xpay
+          
             IXPay xpay = new XpayImpl();
             xpay.CreditCardNo = "4789565874102365";
             xpay.CustomerName = "Max Warner";

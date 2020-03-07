@@ -1,3 +1,4 @@
+using System;
 namespace Composite
 {
     public class HtmlElement: HtmlTag
@@ -6,6 +7,13 @@ namespace Composite
         {
               
         }
+
+        public override void GenerateHtml()
+        {
+            Console.WriteLine(  StartTag +  TagBody +  EndTag);
+        }
+
+         
 
     }
 }

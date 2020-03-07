@@ -11,47 +11,51 @@ namespace Facade
 
         public void ReadSystemConfigFile()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Reading system config file...");
         }
 
         public void InitializeContext()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Initializing context...");
         }
 
         public void InitializeListeners()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Initializing listeners...");
         }
 
         public void CreateSystemObjects()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Creating system objects...");
         }
 
         public void ReleaseProcesses()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Releasing processes...");
         }
 
         public void Destroy()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Destroying...");
         }
 
         public void DestroySystemObjects()
-        {
-            throw new System.NotImplementedException();
-        }
+        {  
+            Console.WriteLine("Destroying system objects...");
+         }
 
         public void DestroyListeners()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Destroying listeners...");
         }
 
         public void DestroyContext()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Destroying context...");
+        }
+       
+       public void Init() {
+            Console.WriteLine("Initializing...");
         }
 
         public void Shutdown()

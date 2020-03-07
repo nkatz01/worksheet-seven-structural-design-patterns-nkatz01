@@ -1,18 +1,18 @@
 namespace Decorator
 {
-    public class Spinach : IPizza
+    public class Spinach : PizzaDecorator 
     {
-        public Spinach(IPizza pizza)
+        public Spinach(IPizza pizza) : base(pizza)
         {
-            throw new System.NotImplementedException();
+           Description= "Spinach";
+            Price = 7.92M;
         }
 
-        public string Description { get; set; }
-        public decimal Price { get; set; }
+      
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + $" {Description}, ({Price})";
         }
     }
 }

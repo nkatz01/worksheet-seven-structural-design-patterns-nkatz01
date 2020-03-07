@@ -1,18 +1,19 @@
 namespace Decorator
 {
-    public class RomaTomatoes : IPizza
+    public class RomaTomatoes : PizzaDecorator
     {
-        public RomaTomatoes(IPizza pizza)
+        public RomaTomatoes(IPizza pizza) : base(pizza)
         {
-            throw new System.NotImplementedException();
+            Description = "RomaTomatoes";
+            Price = 5.20M;
         }
 
-        public string Description { get; set; }
-        public decimal Price { get; set; }
+
+        
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + $" {Description}, ({Price})" ;
         }
     }
 }

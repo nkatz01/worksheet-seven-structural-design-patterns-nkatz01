@@ -1,18 +1,18 @@
 namespace Decorator
 {
-    public class GreenOlives : IPizza
+    public class GreenOlives : PizzaDecorator
     {
-        public GreenOlives(IPizza pizza)
+        public GreenOlives(IPizza pizza) : base(pizza)
         {
-            throw new System.NotImplementedException();
+            Description = "GreenOlives";
+            Price = 5.47M;
         }
 
-        public string Description { get; set; }
-        public decimal Price { get; set; }
+       
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + $" {Description}, ({Price})";
         }
     }
 }

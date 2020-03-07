@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace Composite
 {
+   
     public abstract class HtmlTag
     {
         public string StartTag { get; set; }
@@ -9,7 +10,7 @@ namespace Composite
         public string TagBody { get; set; }
 
        
-
+        
         public virtual void AddChildTag(HtmlTag htmlTag)
         {
             throw new System.NotImplementedException();
@@ -20,7 +21,7 @@ namespace Composite
             throw new System.NotImplementedException();
         }
 
-        public void GenerateHtml()
+        public virtual void GenerateHtml()
         {
             throw new System.NotImplementedException();
         }

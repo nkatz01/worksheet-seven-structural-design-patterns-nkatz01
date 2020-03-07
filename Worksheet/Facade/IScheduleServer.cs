@@ -10,8 +10,11 @@ namespace Facade
         void ReleaseProcesses();
         void Destroy();
         void DestroySystemObjects();
-        void DestroyListeners();
+        void DestroyListeners();  
         void DestroyContext();
         void Shutdown();
+        void Init();
+
+       
     }
 }

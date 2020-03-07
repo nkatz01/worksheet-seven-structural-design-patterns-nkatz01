@@ -28,14 +28,7 @@ namespace Composite
 
             p1.AddChildTag(child1);
             parentTag.GenerateHtml();
-       /*
-            < html >
-            < body >
-            < p > Testing html tag library </ p >
-            < p > Paragraph 2 </ p >
-            </ body >
-            </ html >
-                             */
+     
         }
     }
 }

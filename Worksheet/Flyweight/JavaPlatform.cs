@@ -6,7 +6,7 @@ namespace Flyweight
     {
         public JavaPlatform()
         {
-            Console.WriteLine("JavaPlatform  object created");
+            Console.WriteLine("Java Platform object created");
         }
 
         public void Execute(Code code)

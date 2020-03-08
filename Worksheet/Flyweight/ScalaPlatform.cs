@@ -6,7 +6,7 @@ namespace Flyweight
     {
         public ScalaPlatform()
         {
-            Console.WriteLine("ScalaPlatform object created");
+            Console.WriteLine("Scala Platform object created");
         }
 
         //public override bool Equals(object other)

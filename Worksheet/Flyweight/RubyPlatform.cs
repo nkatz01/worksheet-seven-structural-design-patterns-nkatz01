@@ -2,11 +2,11 @@ using System;
 
 namespace Flyweight
 {
-    public class CPlatform : IPlatform
+    public class RubyPlatform : IPlatform
     {
-        public CPlatform()
+        public RubyPlatform()
         {
-            Console.WriteLine("C Platform object created");
+            Console.WriteLine("Ruby Platform object created");
         }
 
         public void Execute(Code code)

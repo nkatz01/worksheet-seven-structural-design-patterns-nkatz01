@@ -9,35 +9,38 @@ namespace Flyweight
 {
     public static class PlatformFactory
     {
-        private static List<(Flyweight, string)>flyweights = new List<(Flyweight, string)> {  (new Flyweight(new ScalaPlatform()),  typeof(ScalaPlatform).ToString() ) ,
-            (new Flyweight(new ScalaPlatform()),  typeof(JavaPlatform).ToString() )
+        //private static List<(IPlatform, string)>flyweights = new List<(IPlatform, string)> {  (new ScalaPlatform(),  typeof(ScalaPlatform).ToString() ) ,
+        //    (new JavaPlatform(),  typeof(JavaPlatform).ToString() )
+        //};
+        private static List<(IPlatform, string)> flyweights = new List<(IPlatform, string)> {   
         };
 
-        public static  IPlatform PlatformInstance(string name)
+        public static IPlatform PlatformInstance(string name)
         {
          // var el =  flyweights.ElementAt(1);
           //  Console.WriteLine(el.Item2.Substring(10));
            var flyweight = getFlywight(name);
-          return flyweight._sharedStatev;
+
+          return flyweight;
         }
 
         
 
-        private static Flyweight getFlywight(string name)
+        private static IPlatform getFlywight(string name)
         {
 
 
-            //  string key = this.getKey(name);
+           
 
             if (flyweights.Where(t => t.Item2.Substring(10).StartsWith(name, StringComparison.InvariantCultureIgnoreCase)).Count() == 0)
             {
-                Console.WriteLine("FlyweightFactory: Can't find a flyweight, creating new one.");
+           //     Console.WriteLine("FlyweightFactory: Can't find a flyweight, creating new one.");
 
                 var dataAccess = Assembly.GetExecutingAssembly();
                 var builder = new ContainerBuilder();
 
                 builder.RegisterAssemblyTypes(dataAccess)
-                    .Where(t => t.Name.StartsWith(name))
+                    .Where(t => t.Name.StartsWith(name, StringComparison.InvariantCultureIgnoreCase))
                     .AsImplementedInterfaces();
 
                 var Container = builder.Build();
@@ -46,7 +49,7 @@ namespace Flyweight
                 {
                     var pltfrm = scope.Resolve<IPlatform>();
 
-                    flyweights.Add((new Flyweight(pltfrm), pltfrm.GetType().ToString()));
+                    flyweights.Add((pltfrm, pltfrm.GetType().ToString()));
                         
                       
 
@@ -54,7 +57,7 @@ namespace Flyweight
             }
             else
             {
-                Console.WriteLine("FlyweightFactory: Reusing existing flyweight.");
+             //   Console.WriteLine("FlyweightFactory: Reusing existing flyweight.");
             }
             return flyweights.Where(t => t.Item2.Substring(10).StartsWith(name, StringComparison.InvariantCultureIgnoreCase)).FirstOrDefault().Item1;
         }

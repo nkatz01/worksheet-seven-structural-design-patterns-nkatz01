@@ -4,5 +4,8 @@ namespace ProtectedProxy
     {
         public bool IsOwner();
         public IReportGeneratorProxy ReportGenerator { get; set; }
+
+
+       
     }
 }

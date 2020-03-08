@@ -9,7 +9,7 @@ namespace ProtectedProxy
 
         public string GenerateDailyReport()
         {
-            throw new System.NotImplementedException();
+            return ReportGenerator.GenerateDailyReport();
         }
 
         public IReportGeneratorProxy ReportGenerator { get; set; }

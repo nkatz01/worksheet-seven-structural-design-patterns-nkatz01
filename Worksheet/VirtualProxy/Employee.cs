@@ -8,12 +8,15 @@ namespace VirtualProxy
 
         public Employee(string employeeName, decimal employeeSalary, string employeeDesignation)
         {
-            // TODO
+            EmployeeName = employeeName;
+            EmployeeSalary = employeeSalary;
+            EmployeeDesignation = employeeDesignation;
         }
 
         public override string ToString()
         {
-            return base.ToString(); // REPLACE?
+             return  $"Employee Name: {EmployeeName},  Employee Designation: {EmployeeDesignation}, Employee Salary: {EmployeeSalary},"; 
+            
         }
     }
 }

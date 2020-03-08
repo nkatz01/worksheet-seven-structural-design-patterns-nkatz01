@@ -3,15 +3,21 @@ namespace ProtectedProxy
     public class ReportGeneratorProtectionProxy : IReportGeneratorProxy
     {
         private IReportGenerator reportGenerator;
+         private IStaff Staff { get; set; }
 
         public ReportGeneratorProtectionProxy(IStaff staff)
         {
-            // TODO
+            reportGenerator = new ReportGenerator();
+            Staff = staff;
         }
 
         public string GenerateDailyReport()
         {
-            throw new System.NotImplementedException();
+            if (Staff.IsOwner() && reportGenerator == null)
+             Staff.ReportGenerator= reportGenerator;
+
+            return "Not Authorised to view report.";
+
         }
     }
 }

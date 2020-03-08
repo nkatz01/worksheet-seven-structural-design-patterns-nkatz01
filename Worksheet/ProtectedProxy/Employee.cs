@@ -4,7 +4,7 @@ namespace ProtectedProxy
     {
         public bool IsOwner()
         {
-            throw new System.NotImplementedException();
+           return false;
         }
 
         public string GenerateDailyReport()
